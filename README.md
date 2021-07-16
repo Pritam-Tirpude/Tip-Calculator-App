@@ -43,8 +43,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Tip Calculator App Solution](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub/semantic-html-css3-sass-javascript-and-for-slider-i-used-swiper-js-gLHeslHy0)
-- Live Site URL: [Live Site](https://manage-landing-master.netlify.app/)
+- Solution URL: [Tip Calculator App Solution](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX/hub/html-css-sass-javascript-flex-grid-YQDf49gNI)
+- Live Site URL: [Live Site](https://tip-calculator-app-site.netlify.app/)
 
 ## My process
 
