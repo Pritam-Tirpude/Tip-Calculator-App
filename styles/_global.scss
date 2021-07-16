@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary_strong_cyan: hsl(172, 67%, 45%);
+$neutral_very_dark_cyan: hsl(183, 100%, 15%);
+$neutral_dark_grayish_cyan_one: hsl(186, 14%, 43%);
+$neutral_dark_grayish_cyan_two: hsl(184, 14%, 56%);
+$neutral_light_grayish_cyan_one: hsl(185, 41%, 84%);
+$neutral_light_grayish_cyan_two: hsl(189, 41%, 97%);
+$neutral_white: hsl(0, 0%, 100%);
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @include flex(center, center, column);
+  background: $neutral_light_grayish_cyan_one;
+  height: 100vh;
+  font-family: "Space Mono", monospace;
+}
